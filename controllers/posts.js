@@ -5,7 +5,7 @@ function index(req, res) {
     res.format({
        
         html : ()=> {
-            const posts = []
+            let posts = []
 
             posts.push("<ul>")
 
@@ -15,14 +15,11 @@ function index(req, res) {
                 <div>${post.contenuto}</div>
                 <div> <img src="/${post.immagine}" alt="immagine post ${post.immagine}" width="150"></div>
                 <div>${post.tags}</div>
-                
-                
                 </li>`)
-
             }
             posts.push("</ul>")
 
-            res.send(posts.join())
+            res.send(posts.join(""))
         },
         json: () => {
             res.type("json").send({

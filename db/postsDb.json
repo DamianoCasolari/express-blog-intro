@@ -1,0 +1,32 @@
+[
+    {
+        "titolo": "Titolo del primo post",
+        "contenuto": "Contenuto del primo post...",
+        "immagine": "news1.jpg",
+        "tags": ["tag1", "tag2", "tag3"]
+    },
+    {
+        "titolo": "Titolo del secondo post",
+        "contenuto": "Contenuto del secondo post...",
+        "immagine": "news2.jpg",
+        "tags": ["tag2", "tag4", "tag6"]
+    },
+    {
+        "titolo": "Titolo del terzo post",
+        "contenuto": "Contenuto del terzo post...",
+        "immagine": "news3.jpg",
+        "tags": ["tag1", "tag3", "tag5"]
+    },
+    {
+        "titolo": "Titolo del quarto post",
+        "contenuto": "Contenuto del quarto post...",
+        "immagine": "news4.jpg",
+        "tags": ["tag4", "tag6", "tag7"]
+    },
+    {
+        "titolo": "Titolo del quinto post",
+        "contenuto": "Contenuto del quinto post...",
+        "immagine": "news5.jpg",
+        "tags": ["tag1", "tag2", "tag5"]
+    }
+]

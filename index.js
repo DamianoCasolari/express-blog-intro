@@ -5,14 +5,20 @@ dotenv.config()
 
 //create an istance of express
 const app = express()
+const {index} = require("./controllers/posts")
+
+
+app.use(express.static("public"))
 
 //define route
 app.get("/", (req,res)=> {
-    res.send("Fino a qui tutto bene")
+    res.type("html")
+    res.send("<h1>Benvenuto nel mio blog!</h1>")
 })
 
-//start server
+app.get("/posts",index)
 
+//start server
 app.listen(3000, ()=> {
     console.log("Server running correctly: http://localhost:3000");
 
